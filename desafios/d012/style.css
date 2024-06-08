@@ -47,14 +47,14 @@ header a{
     line-height: 7.1vw;
 }
 
-.img{
+#img{
     min-height: 250px;
     background-image: url('imagens/background001.jpg');
     background-position: right bottom;
     padding: 60px 0px 60px 25px;
 }
 
-.img > p{
+#img > p{
     font-family: 'Sriracha', cursive;
     background-color: rgba(0, 0, 0, 0.54);
     color: white;
@@ -65,14 +65,14 @@ header a{
     
 }
 
-.img-2{
+#img-2{
     min-height: 250px;
     background-image: url('imagens/background002.jpg');
     background-position: right bottom;
     padding: 60px 0px 60px 25px;
 }
 
-.img-2 > p{
+#img-2 > p{
     font-family: 'Sriracha', cursive;
     background-color: rgba(0, 0, 0, 0.445);
     color: white;
