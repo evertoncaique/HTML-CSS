@@ -51,8 +51,11 @@ header a , footer a{
 #img{
     min-height: 250px;
     background-image: url('imagens/background001.jpg');
-    background-position: right bottom;
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
     padding: 60px 0px 60px 25px;
+
 }
 
 #img > p{
@@ -69,7 +72,9 @@ header a , footer a{
 #img-2{
     min-height: 250px;
     background-image: url('imagens/background002.jpg');
-    background-position: right bottom;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
     padding: 60px 0px 60px 25px;
 }
 

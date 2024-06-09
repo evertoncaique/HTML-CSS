@@ -42,41 +42,32 @@ section{
     padding-left: 30px;
     font-size: 3.5vw;
     line-height: 2em;
-}
-
-.normal{
     background-color: white;
-}
-
-.normal > p{
     font-family: 'Sriracha', cursive;
 }
 
-#img{
-    background-image: url('imagens/background001.jpg');
-    background-position: right bottom;
+.imagem{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.388);
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
 }
 
-#img > p{
+#img1{
+    background-image: url('imagens/background001.jpg');
+}
+
+#img2{
+    background-image: url('imagens/background002.jpg');
+}
+
+.imagem > p{
     font-family: 'Sriracha', cursive;
     background-color: rgba(0, 0, 0, 0.54);
     color: white;
     display: inline-block;
     padding: 5px;
-}
-
-#img-2{
-    
-    background-image: url('imagens/background002.jpg');
-    background-position: right bottom;
-}
-
-#img-2 > p{
-    font-family: 'Sriracha', cursive;
-    background-color: rgba(0, 0, 0, 0.445);
-    color: white;
-    display: inline-block;
-    padding: 5px;
+    text-shadow: 2px 2px 0px black;
 }
 
 footer{
