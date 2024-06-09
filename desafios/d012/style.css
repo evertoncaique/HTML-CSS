@@ -21,6 +21,7 @@ header > h1{
     font-family: 'Passion One', sans-serif;
     font-size: 9vw;
     padding: 50px 0px 5px 0px;
+    font-variant: small-caps;
     
 }
 
@@ -29,10 +30,10 @@ header > p{
     padding-bottom: 50px;
 }
 
-header a{
+header a , footer a{
     text-decoration: none;
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .normal{
@@ -89,10 +90,4 @@ footer{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 13px;
-}
-
-footer a{
-    text-decoration: none;
-    color: white;
-    font-weight: bolder;
 }
